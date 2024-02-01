@@ -1,0 +1,23 @@
+:root {
+  --text-color: #fffbf5;
+  --background: #a9a9a9;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color: var(--background);
+}
+
+h1 {
+  color: var(--text-color);
+  font-size: 3rem;
+  font-family: "Workbench", sans-serif;
+  text-transform: uppercase;
+  display: flex;
+  position: static;
+  align-items: center;
+  justify-content: center;
+  padding: 10em;
+}
